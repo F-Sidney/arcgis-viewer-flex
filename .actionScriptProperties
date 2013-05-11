@@ -45,6 +45,7 @@
     <module application="src/index.mxml" destPath="widgets/Time/TimeWidget.swf" optimize="true" sourcePath="src/widgets/Time/TimeWidget.mxml"/>
     <module application="src/index.mxml" destPath="widgets/WidgetContainer/WidgetContainerWidget.swf" optimize="true" sourcePath="src/widgets/WidgetContainer/WidgetContainerWidget.mxml"/>
     <module application="src/index.mxml" destPath="com/gcsresearch/streets/GStreetviewWidget.swf" optimize="true" sourcePath="src/com/gcsresearch/streets/GStreetviewWidget.mxml"/>
+    <module application="src/index.mxml" destPath="widgets/StreetView/StreetViewWidget.swf" optimize="true" sourcePath="src/widgets/StreetView/StreetViewWidget.mxml"/>
   </modules>
   <buildCSSFiles/>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
