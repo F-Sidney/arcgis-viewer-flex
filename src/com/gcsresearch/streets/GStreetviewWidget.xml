@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<configuration>
+  <labels>
+    <pointLabel>Select a Point</pointLabel>
+  </labels>
+  <icons>
+    <trackerIcon
+        width="32"
+        height="32" 
+        url="com/gcsresearch/streets/assets/images/i_pov/i_pov.png"
+        />
+  </icons>
+</configuration>

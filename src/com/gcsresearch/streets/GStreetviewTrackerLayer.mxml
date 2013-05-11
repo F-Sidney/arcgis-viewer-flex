@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicsLayer 
+  xmlns="com.esri.ags.layers.*" 
+  xmlns:esri="http://www.esri.com/2008/ags"
+  xmlns:mx="http://www.adobe.com/2006/mxml">
+  
+  <mx:Script source="GStreetviewTrackerLayer.mxscript.as"/>
+  
+  <symbol>
+    <esri:SimpleMarkerSymbol 
+          color="0x0000FF" 
+          style="circle" 
+          size="10"/>
+  </symbol>
+  
+</GraphicsLayer>
