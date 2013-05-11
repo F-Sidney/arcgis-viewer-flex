@@ -16,6 +16,7 @@ import com.esri.ags.symbols.PictureMarkerSymbol;
 import com.esri.ags.symbols.SimpleMarkerSymbol;
 import com.esri.ags.events.DrawEvent;
 import com.esri.ags.tools.DrawTool;
+import com.esri.ags.utils.WebMercatorUtil;
 
 private var isInitialized : Boolean = false;
 
@@ -80,7 +81,7 @@ private function pointClicked(event:DrawEvent)
     var pointGeometry : Geometry = graphic.geometry;
     var point : MapPoint;
     
-    point = pointGeometry as MapPoint;
+    point = WebMercatorUtil.webMercatorToGeographic( pointGeometry ) as MapPoint;
     if (point)
     {
         trackerLayer.executeMoveRequest(point);
